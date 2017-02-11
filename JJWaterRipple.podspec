@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :tag => "s.version.to_s" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
