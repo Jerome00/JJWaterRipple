@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28DE14931E4E00E500B9F11F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE14921E4E00E500B9F11F /* main.m */; };
+		28DE14961E4E00E500B9F11F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE14951E4E00E500B9F11F /* AppDelegate.m */; };
+		28DE149C1E4E00E500B9F11F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DE149A1E4E00E500B9F11F /* Main.storyboard */; };
+		28DE149E1E4E00E500B9F11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DE149D1E4E00E500B9F11F /* Assets.xcassets */; };
+		28DE14A11E4E00E500B9F11F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DE149F1E4E00E500B9F11F /* LaunchScreen.storyboard */; };
+		28DE14AC1E4E00E500B9F11F /* JJrippleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE14AB1E4E00E500B9F11F /* JJrippleTests.m */; };
+		28DE14B71E4E00E500B9F11F /* JJrippleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE14B61E4E00E500B9F11F /* JJrippleUITests.m */; };
+		28DE14C61E4E012900B9F11F /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE14C51E4E012900B9F11F /* JJViewController.m */; };
+		28DE14CA1E4E022B00B9F11F /* JJWaterRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE14C91E4E022B00B9F11F /* JJWaterRipple.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28DE14A81E4E00E500B9F11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28DE14861E4E00E400B9F11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28DE148D1E4E00E500B9F11F;
+			remoteInfo = JJripple;
+		};
+		28DE14B31E4E00E500B9F11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28DE14861E4E00E400B9F11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28DE148D1E4E00E500B9F11F;
+			remoteInfo = JJripple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28DE148E1E4E00E500B9F11F /* JJripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DE14921E4E00E500B9F11F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28DE14941E4E00E500B9F11F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28DE14951E4E00E500B9F11F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28DE149B1E4E00E500B9F11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28DE149D1E4E00E500B9F11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28DE14A01E4E00E500B9F11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28DE14A21E4E00E500B9F11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DE14A71E4E00E500B9F11F /* JJrippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJrippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DE14AB1E4E00E500B9F11F /* JJrippleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJrippleTests.m; sourceTree = "<group>"; };
+		28DE14AD1E4E00E500B9F11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DE14B21E4E00E500B9F11F /* JJrippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJrippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DE14B61E4E00E500B9F11F /* JJrippleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJrippleUITests.m; sourceTree = "<group>"; };
+		28DE14B81E4E00E500B9F11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DE14C41E4E012900B9F11F /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		28DE14C51E4E012900B9F11F /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
+		28DE14C81E4E022B00B9F11F /* JJWaterRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWaterRipple.h; sourceTree = "<group>"; };
+		28DE14C91E4E022B00B9F11F /* JJWaterRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWaterRipple.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28DE148B1E4E00E500B9F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DE14A41E4E00E500B9F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DE14AF1E4E00E500B9F11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28DE14851E4E00E400B9F11F = {
+			isa = PBXGroup;
+			children = (
+				28DE14901E4E00E500B9F11F /* JJripple */,
+				28DE14AA1E4E00E500B9F11F /* JJrippleTests */,
+				28DE14B51E4E00E500B9F11F /* JJrippleUITests */,
+				28DE148F1E4E00E500B9F11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28DE148F1E4E00E500B9F11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28DE148E1E4E00E500B9F11F /* JJripple.app */,
+				28DE14A71E4E00E500B9F11F /* JJrippleTests.xctest */,
+				28DE14B21E4E00E500B9F11F /* JJrippleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28DE14901E4E00E500B9F11F /* JJripple */ = {
+			isa = PBXGroup;
+			children = (
+				28DE14C71E4E01F500B9F11F /* JJWaterRipple */,
+				28DE14941E4E00E500B9F11F /* AppDelegate.h */,
+				28DE14951E4E00E500B9F11F /* AppDelegate.m */,
+				28DE14C41E4E012900B9F11F /* JJViewController.h */,
+				28DE14C51E4E012900B9F11F /* JJViewController.m */,
+				28DE149A1E4E00E500B9F11F /* Main.storyboard */,
+				28DE149D1E4E00E500B9F11F /* Assets.xcassets */,
+				28DE149F1E4E00E500B9F11F /* LaunchScreen.storyboard */,
+				28DE14A21E4E00E500B9F11F /* Info.plist */,
+				28DE14911E4E00E500B9F11F /* Supporting Files */,
+			);
+			path = JJripple;
+			sourceTree = "<group>";
+		};
+		28DE14911E4E00E500B9F11F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DE14921E4E00E500B9F11F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28DE14AA1E4E00E500B9F11F /* JJrippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28DE14AB1E4E00E500B9F11F /* JJrippleTests.m */,
+				28DE14AD1E4E00E500B9F11F /* Info.plist */,
+			);
+			path = JJrippleTests;
+			sourceTree = "<group>";
+		};
+		28DE14B51E4E00E500B9F11F /* JJrippleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28DE14B61E4E00E500B9F11F /* JJrippleUITests.m */,
+				28DE14B81E4E00E500B9F11F /* Info.plist */,
+			);
+			path = JJrippleUITests;
+			sourceTree = "<group>";
+		};
+		28DE14C71E4E01F500B9F11F /* JJWaterRipple */ = {
+			isa = PBXGroup;
+			children = (
+				28DE14C81E4E022B00B9F11F /* JJWaterRipple.h */,
+				28DE14C91E4E022B00B9F11F /* JJWaterRipple.m */,
+			);
+			name = JJWaterRipple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28DE148D1E4E00E500B9F11F /* JJripple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DE14BB1E4E00E500B9F11F /* Build configuration list for PBXNativeTarget "JJripple" */;
+			buildPhases = (
+				28DE148A1E4E00E500B9F11F /* Sources */,
+				28DE148B1E4E00E500B9F11F /* Frameworks */,
+				28DE148C1E4E00E500B9F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJripple;
+			productName = JJripple;
+			productReference = 28DE148E1E4E00E500B9F11F /* JJripple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28DE14A61E4E00E500B9F11F /* JJrippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DE14BE1E4E00E500B9F11F /* Build configuration list for PBXNativeTarget "JJrippleTests" */;
+			buildPhases = (
+				28DE14A31E4E00E500B9F11F /* Sources */,
+				28DE14A41E4E00E500B9F11F /* Frameworks */,
+				28DE14A51E4E00E500B9F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DE14A91E4E00E500B9F11F /* PBXTargetDependency */,
+			);
+			name = JJrippleTests;
+			productName = JJrippleTests;
+			productReference = 28DE14A71E4E00E500B9F11F /* JJrippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28DE14B11E4E00E500B9F11F /* JJrippleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DE14C11E4E00E500B9F11F /* Build configuration list for PBXNativeTarget "JJrippleUITests" */;
+			buildPhases = (
+				28DE14AE1E4E00E500B9F11F /* Sources */,
+				28DE14AF1E4E00E500B9F11F /* Frameworks */,
+				28DE14B01E4E00E500B9F11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DE14B41E4E00E500B9F11F /* PBXTargetDependency */,
+			);
+			name = JJrippleUITests;
+			productName = JJrippleUITests;
+			productReference = 28DE14B21E4E00E500B9F11F /* JJrippleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28DE14861E4E00E400B9F11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JJ;
+				TargetAttributes = {
+					28DE148D1E4E00E500B9F11F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					28DE14A61E4E00E500B9F11F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28DE148D1E4E00E500B9F11F;
+					};
+					28DE14B11E4E00E500B9F11F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28DE148D1E4E00E500B9F11F;
+					};
+				};
+			};
+			buildConfigurationList = 28DE14891E4E00E400B9F11F /* Build configuration list for PBXProject "JJripple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28DE14851E4E00E400B9F11F;
+			productRefGroup = 28DE148F1E4E00E500B9F11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28DE148D1E4E00E500B9F11F /* JJripple */,
+				28DE14A61E4E00E500B9F11F /* JJrippleTests */,
+				28DE14B11E4E00E500B9F11F /* JJrippleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28DE148C1E4E00E500B9F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DE14A11E4E00E500B9F11F /* LaunchScreen.storyboard in Resources */,
+				28DE149E1E4E00E500B9F11F /* Assets.xcassets in Resources */,
+				28DE149C1E4E00E500B9F11F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DE14A51E4E00E500B9F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DE14B01E4E00E500B9F11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28DE148A1E4E00E500B9F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DE14961E4E00E500B9F11F /* AppDelegate.m in Sources */,
+				28DE14CA1E4E022B00B9F11F /* JJWaterRipple.m in Sources */,
+				28DE14C61E4E012900B9F11F /* JJViewController.m in Sources */,
+				28DE14931E4E00E500B9F11F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DE14A31E4E00E500B9F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DE14AC1E4E00E500B9F11F /* JJrippleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DE14AE1E4E00E500B9F11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DE14B71E4E00E500B9F11F /* JJrippleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28DE14A91E4E00E500B9F11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28DE148D1E4E00E500B9F11F /* JJripple */;
+			targetProxy = 28DE14A81E4E00E500B9F11F /* PBXContainerItemProxy */;
+		};
+		28DE14B41E4E00E500B9F11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28DE148D1E4E00E500B9F11F /* JJripple */;
+			targetProxy = 28DE14B31E4E00E500B9F11F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28DE149A1E4E00E500B9F11F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28DE149B1E4E00E500B9F11F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28DE149F1E4E00E500B9F11F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28DE14A01E4E00E500B9F11F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28DE14B91E4E00E500B9F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28DE14BA1E4E00E500B9F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28DE14BC1E4E00E500B9F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJripple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJ.JJripple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28DE14BD1E4E00E500B9F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJripple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJ.JJripple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28DE14BF1E4E00E500B9F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJrippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJ.JJrippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJripple.app/JJripple";
+			};
+			name = Debug;
+		};
+		28DE14C01E4E00E500B9F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJrippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJ.JJrippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJripple.app/JJripple";
+			};
+			name = Release;
+		};
+		28DE14C21E4E00E500B9F11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJrippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJ.JJrippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJripple;
+			};
+			name = Debug;
+		};
+		28DE14C31E4E00E500B9F11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJrippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJ.JJrippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJripple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DE14891E4E00E400B9F11F /* Build configuration list for PBXProject "JJripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DE14B91E4E00E500B9F11F /* Debug */,
+				28DE14BA1E4E00E500B9F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DE14BB1E4E00E500B9F11F /* Build configuration list for PBXNativeTarget "JJripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DE14BC1E4E00E500B9F11F /* Debug */,
+				28DE14BD1E4E00E500B9F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28DE14BE1E4E00E500B9F11F /* Build configuration list for PBXNativeTarget "JJrippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DE14BF1E4E00E500B9F11F /* Debug */,
+				28DE14C01E4E00E500B9F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28DE14C11E4E00E500B9F11F /* Build configuration list for PBXNativeTarget "JJrippleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DE14C21E4E00E500B9F11F /* Debug */,
+				28DE14C31E4E00E500B9F11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28DE14861E4E00E400B9F11F /* Project object */;
+}
