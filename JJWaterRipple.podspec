@@ -47,6 +47,6 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source_files  = 'JJWaterRipple/JJripple/*.{h，m}'
+  s.source_files  = 'JJWaterRipple/*.{h，m}'
 
 end
