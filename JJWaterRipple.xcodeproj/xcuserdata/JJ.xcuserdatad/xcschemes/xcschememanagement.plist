@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JJripple.xcscheme</key>
+		<key>JJWaterRipple.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28DE148D1E4E00E500B9F11F</key>
+		<key>28BEA5981E4EF8D4005DC220</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>28DE14A61E4E00E500B9F11F</key>
+		<key>28BEA5B11E4EF8D4005DC220</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>28DE14B11E4E00E500B9F11F</key>
+		<key>28BEA5BC1E4EF8D4005DC220</key>
 		<dict>
 			<key>primary</key>
 			<true/>

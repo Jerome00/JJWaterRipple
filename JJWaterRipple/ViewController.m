@@ -1,28 +1,26 @@
 //
-//  JJViewController.m
-//  JJripple
+//  ViewController.m
+//  JJWaterRipple
 //
-//  Created by JJ on 2017/2/10.
+//  Created by JJ on 2017/2/11.
 //  Copyright © 2017年 JJ. All rights reserved.
 //
 
-#import "JJViewController.h"
+#import "ViewController.h"
 #import "JJWaterRipple.h"
 
 #define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
 #define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
 
-@interface JJViewController ()<JJWaterRippleDelegate>
-
+@interface ViewController ()<JJWaterRippleDelegate>
 /** 加载图片 */
 @property(nonatomic,strong) UIImageView * imageV1;
 @property(nonatomic,strong) UIImageView * imageV2;
 
 @property(nonatomic,strong) JJWaterRipple * waterRipple;
-
 @end
 
-@implementation JJViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -49,9 +47,6 @@
     self.imageV2.layer.mask = maskLayer;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    
-}
+
 
 @end
