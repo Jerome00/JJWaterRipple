@@ -1,18 +1,18 @@
 //
-//  JJWaterRippleUITests.m
-//  JJWaterRippleUITests
+//  JJrippleUITests.m
+//  JJrippleUITests
 //
-//  Created by JJ on 2017/2/11.
+//  Created by JJ on 2017/2/10.
 //  Copyright © 2017年 JJ. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface JJWaterRippleUITests : XCTestCase
+@interface JJrippleUITests : XCTestCase
 
 @end
 
-@implementation JJWaterRippleUITests
+@implementation JJrippleUITests
 
 - (void)setUp {
     [super setUp];

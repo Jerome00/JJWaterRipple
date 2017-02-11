@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28BEA5981E4EF8D4005DC220"
-               BuildableName = "JJWaterRipple.app"
-               BlueprintName = "JJWaterRipple"
-               ReferencedContainer = "container:JJWaterRipple.xcodeproj">
+               BlueprintIdentifier = "28DE148D1E4E00E500B9F11F"
+               BuildableName = "JJripple.app"
+               BlueprintName = "JJripple"
+               ReferencedContainer = "container:JJripple.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28BEA5B11E4EF8D4005DC220"
-               BuildableName = "JJWaterRippleTests.xctest"
-               BlueprintName = "JJWaterRippleTests"
-               ReferencedContainer = "container:JJWaterRipple.xcodeproj">
+               BlueprintIdentifier = "28DE14A61E4E00E500B9F11F"
+               BuildableName = "JJrippleTests.xctest"
+               BlueprintName = "JJrippleTests"
+               ReferencedContainer = "container:JJripple.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28BEA5BC1E4EF8D4005DC220"
-               BuildableName = "JJWaterRippleUITests.xctest"
-               BlueprintName = "JJWaterRippleUITests"
-               ReferencedContainer = "container:JJWaterRipple.xcodeproj">
+               BlueprintIdentifier = "28DE14B11E4E00E500B9F11F"
+               BuildableName = "JJrippleUITests.xctest"
+               BlueprintName = "JJrippleUITests"
+               ReferencedContainer = "container:JJripple.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28BEA5981E4EF8D4005DC220"
-            BuildableName = "JJWaterRipple.app"
-            BlueprintName = "JJWaterRipple"
-            ReferencedContainer = "container:JJWaterRipple.xcodeproj">
+            BlueprintIdentifier = "28DE148D1E4E00E500B9F11F"
+            BuildableName = "JJripple.app"
+            BlueprintName = "JJripple"
+            ReferencedContainer = "container:JJripple.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28BEA5981E4EF8D4005DC220"
-            BuildableName = "JJWaterRipple.app"
-            BlueprintName = "JJWaterRipple"
-            ReferencedContainer = "container:JJWaterRipple.xcodeproj">
+            BlueprintIdentifier = "28DE148D1E4E00E500B9F11F"
+            BuildableName = "JJripple.app"
+            BlueprintName = "JJripple"
+            ReferencedContainer = "container:JJripple.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28BEA5981E4EF8D4005DC220"
-            BuildableName = "JJWaterRipple.app"
-            BlueprintName = "JJWaterRipple"
-            ReferencedContainer = "container:JJWaterRipple.xcodeproj">
+            BlueprintIdentifier = "28DE148D1E4E00E500B9F11F"
+            BuildableName = "JJripple.app"
+            BlueprintName = "JJripple"
+            ReferencedContainer = "container:JJripple.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

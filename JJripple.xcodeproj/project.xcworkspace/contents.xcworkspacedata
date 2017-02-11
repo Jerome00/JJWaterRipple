@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JJWaterRipple.xcodeproj">
+      location = "self:JJripple.xcodeproj">
    </FileRef>
 </Workspace>
