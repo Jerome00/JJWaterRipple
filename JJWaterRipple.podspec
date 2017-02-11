@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "7.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -42,12 +42,14 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :tag => "s.version.to_s" }
+  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :commit => "2531c5992faab6d13b94993f4d2e19e20399db06" }
 
-  s.source_files  = 'JJWaterRipple/*.{h，m}'
+  s.source_files  = 'JJWaterRipple/*.{h,m}'
+
+  s.ios.frameworks = 'Foundation', 'UIKit'
+  s.osx.frameworks = 'Foundation', 'AppKit'
 
 end
