@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.author             = { "jerome00" => "zhaojj9043@163.com" }
+  s.author             = { "jerome00" => "zhaojjjob@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :tag => "s.version.to_s" }
+  s.source       = { :git => "https://github.com/Jerome00/JJWaterRipple.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
