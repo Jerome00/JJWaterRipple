@@ -12,7 +12,9 @@ JJWaterRipple的原理很简单，可以配合项目理解
 5.您只需要在JJWaterRipple的回调方法中设置遮盖层即可
 
 # 安装
+
 ###*直接安装*
+
 直接拽入 `JJWaterRipple.h` 和 `JJWaterRipple.m` 文件
 
 ### *Pod*
