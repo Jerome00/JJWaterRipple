@@ -13,7 +13,7 @@ JJWaterRipple的原理很简单，可以配合项目理解
 
 # 安装
 
-###*直接安装*
+### *直接安装*
 
 直接拽入 `JJWaterRipple.h` 和 `JJWaterRipple.m` 文件
 
